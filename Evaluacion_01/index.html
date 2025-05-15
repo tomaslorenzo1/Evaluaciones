@@ -12,7 +12,7 @@
   <header class="top-header">
     <div class="user-info">
       <img src="img/perfilUser.jpg" alt="Usuario" class="user-img" />
-      <span>Hola, <b>Javier</b></span>
+      <span class="nombre-usuario">Hola, <b>Javier</b></span>
     </div>
     <img src="img/campanita.jpg" class="icono-campana" alt="Notificaciones" />
   </header>
@@ -20,30 +20,49 @@
   <main class="main-content">
     <div class="buscador">
       <input type="text" placeholder="Busque su producto" />
-      <button>🔍</button>
+      <span class="icono-buscar">🔍</span>
     </div>
 
     <div class="categorias">
-      <div class="categoria">iPhone</div>
-      <div class="categoria">Apple Watch</div>
-      <div class="categoria">AirPods</div>
+      <div class="categoria">
+        <div class="icono-categoria"><img src="img/articulo1.jpg" alt="iPhone" /></div>
+        <div class="nombre-categoria"><p>iPhone</p></div>
+      </div>
+      <div class="categoria">
+        <div class="icono-categoria"><img src="img/articulo2.jpg" alt="Apple Watch" /></div>
+        <div class="nombre-categoria"><p>Apple Watch</p></div>
+      </div>
+      <div class="categoria">
+        <div class="icono-categoria"><img src="img/articulo3.jpg" alt="AirPods" /></div>
+        <div class="nombre-categoria"><p>AirPods</p></div>
+      </div>
     </div>
 
-    <h2>Novedades</h2>
+    <hr class="separador" />
+    <h2 class="titulo-novedades">Novedades</h2>
+
     <div class="productos">
       <div class="producto">
-        <img src="img/articulo4.jpg" height="150" width="150px" alt="iPhone" />
-        <p class="nuevo">Nuevo</p>
-        <h3>iPhone 15 Pro</h3>
-        <p>A partir de $6.999</p>
-        <button>Comprar</button>
+        <div class="img-contenedor">
+          <img src="img/articulo4.jpg" height="150px" alt="iPhone" />
+        </div>
+        <div class="info-producto">
+          <p class="nuevo">Nuevo</p>
+          <h3>iPhone 15 Pro</h3>
+          <p>A partir de $9.299</p>
+          <button>Comprar 🛒</button>
+        </div>
       </div>
       <div class="producto">
-        <img src="img/articulo5.jpg" height="150" width="150px" alt="MacBook" />
-        <p class="nuevo">Nuevo</p>
-        <h3>MacBook Pro</h3>
-        <p>A partir de $14.999</p>
-        <button>Comprar</button>
+        <div class="img-contenedor">
+          <img src="img/articulo5.jpg" alt="MacBook" />
+        </div>
+        <div class="info-producto">
+          <p class="nuevo">Nuevo</p>
+          <h3>MacBook Pro</h3>
+          <p>A partir de $18.499</p>
+          <button>Comprar 🛒</button>
+        </div>
       </div>
     </div>
 
