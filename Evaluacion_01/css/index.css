@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background: #fdfdfd;
+    color: #333;
+    padding-bottom: 80px;
+  }
+  
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .icono-campana {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  .buscador {
+    display: flex;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buscador input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+  }
+  
+  .buscador button {
+    padding: 10px 15px;
+    border: none;
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+  
+  .categorias {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 30px;
+  }
+  
+  .categoria {
+    background: #000;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+  
+  .main-content h2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .productos {
+    display: flex;
+    gap: 15px;
+    padding: 0 20px;
+  }
+  
+  .producto {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 10px;
+    width: 48%;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .producto .nuevo {
+    color: #ff4444;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .producto h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .producto p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .producto button {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn-vermas {
+    display: block;
+    margin: 25px auto;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  .footer a.activo {
+    opacity: 1;
+  }
+
+  .celular {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    min-height: 600px;
+  }
